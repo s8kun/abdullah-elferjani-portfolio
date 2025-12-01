@@ -12,7 +12,7 @@ const projects: Project[] = [
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     githubLink: "https://github.com/s8kun/AAAS",
     demoLink: "https://aaas-azure.vercel.app/",
-    imageUrl: "public/images/image.png",
+    imageUrl: "/images/image.png",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const projects: Project[] = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "i18next", "Zustand"],
     githubLink: "https://github.com/s8kun/Ai-landingPage",
     demoLink: "https://ai-landing-page-five-sepia.vercel.app/",
-    imageUrl: "public/images/image2.png",
+    imageUrl: "/images/image2.png",
   },
   {
     id: 3,

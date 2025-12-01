@@ -7,9 +7,9 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 const App: React.FC = () => {
   return (
-    <div className="bg-slate-900 min-h-screen text-slate-200">
+    <div className="bg-slate-900 min-h-screen w-full text-slate-200">
       <Navbar />
-      <main>
+      <main className="w-full">
         <Hero />
         <About />
         <Skills />

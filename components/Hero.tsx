@@ -11,14 +11,16 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-slate-900 pt-16"
+      className="h-screen flex items-center justify-center relative overflow-hidden pt-16 "
     >
-      <Aurora
-        colorStops={["#3A29FF", "#000000", "#07115a"]}
-        blend={0.5}
-        amplitude={1.0}
-        speed={0.5}
-      />
+      <div className="absolute inset-0 z-0 h-screen overflow-hidden">
+        <Aurora
+          colorStops={["#080439", "#000000", "#07115a"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
+        />
+      </div>
       {/* Background decoration */}
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center z-10">
