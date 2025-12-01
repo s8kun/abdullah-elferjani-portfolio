@@ -109,7 +109,7 @@ const About: React.FC = () => {
               </div>
               <div className="bg-slate-800 p-4 rounded-lg border-l-4 border-purple-500">
                 <span className="block text-2xl font-bold text-white mb-1">
-                  10+
+                  5+
                 </span>
                 <span className="text-sm text-gray-400">Projects Built</span>
               </div>
