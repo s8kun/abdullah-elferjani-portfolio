@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { NavItem } from "../types";
 import { motion, AnimatePresence } from "framer-motion";
-
 const navItems: NavItem[] = [
   { label: "Home", href: "#hero" },
   { label: "About", href: "#about" },
@@ -38,7 +37,11 @@ const Navbar: React.FC = () => {
             onClick={() => window.scrollTo(0, 0)}
           >
             <div className="w-10 h-10 bg-[#1e293b]/30 rounded-lg flex items-center justify-center text-white">
-              <img src="public\images\Logo.png" alt="logo.png" />
+              <img
+                src="/images/Logo.png"
+                alt="Abdullah.Dev Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="font-bold text-xl tracking-tight text-white">
               Abdullah.Dev
