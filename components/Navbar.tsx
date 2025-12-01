@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             onClick={() => window.scrollTo(0, 0)}
           >
             <div className="w-10 h-10 bg-[#1e293b]/30 rounded-lg flex items-center justify-center text-white">
-              <img src="public/images/Logo.png" alt="logo.png" />
+              <img src="public\images\Logo.png" alt="logo.png" />
             </div>
             <span className="font-bold text-xl tracking-tight text-white">
               Abdullah.Dev
