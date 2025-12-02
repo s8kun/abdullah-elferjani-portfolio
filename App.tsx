@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div className="bg-slate-900 min-h-screen w-full text-slate-200">
       <Navbar />
-      <main className="w-full">
+      <main className="overflow-hidden">
         <Hero />
         <About />
         <Skills />
